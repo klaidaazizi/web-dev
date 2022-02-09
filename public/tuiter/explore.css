@@ -31,11 +31,11 @@
 
 .wd-search{
     padding:10px;
-    width: 450px;
+    width: 400px;
 }
 .wd-trending-box{
     padding: 5px;
-    width: 500px;
+    width: 550px;
 }
 
 .wd-trending{
@@ -83,9 +83,10 @@
 .wd-link-padding{
     padding: 16px;
 }
-.wd-border-bottom{
-    border-bottom: 1px solid gray;
+.wd-border{
+    border: 1px solid rgba(98, 100, 103, 0.92);
 }
+
 .wd-border-bottom-blue{
     border-bottom: 2px solid #1da1f2;
 }

@@ -1,0 +1,92 @@
+.wd-bg-color-black{
+    background-color: black;
+}
+.wd-font{
+    font-family: "Helvetica Neue";
+}
+
+.wd-title{
+    padding-bottom: 12px;
+    font-size: 20px;
+    width: 570px;
+    border: 1px solid rgba(93, 93, 93, 0.92);
+}
+.wd-border{
+    border: 1px solid rgba(93, 93, 93, 0.92);
+}
+.wd-image{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+.wd-image-text{
+    padding: 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left:1px solid rgba(93, 93, 93, 0.92);
+    border-right:1px solid rgba(93, 93, 93, 0.92);
+    border-bottom: 1px solid rgba(93, 93, 93, 0.92);
+}
+.wd-float-left{
+    float: left;
+}
+.wd-padding{
+    padding-left: 16px;
+    padding-top: 12px;
+}
+.wd-padding-left-12{
+    padding-left:12px
+}
+.wd-container{
+    height: fit-content;
+    width: 600px;
+}
+.wd-author{
+    padding-left: 12px;
+    font-size: 15px;
+}
+.wd-content{
+    font-size: 15px;
+    color: white;
+    width: 506px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+.wd-pic{
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top:12px;
+}
+.wd-link-no-underline{
+    text-decoration: none;
+}
+.wd-icon{
+    padding-top: 12px;
+
+}
+
+.wd-subtitle{
+    font-size: 13px;
+}
+.wd-fg-color-light-gray{
+    color: rgba(166, 166, 166, 0.92)
+}
+
+.wd-margin-left{
+    margin-left:100px;
+}
+.wd-fg-color-white{
+    color:white;
+}
+
+.wd-float-done{
+    clear: both;
+}
+
+.wd-fg-color-red{
+    color:red;
+}
