@@ -21,7 +21,8 @@ const PostItem = (post) =>{
         <div class="card-body">
         ${post.picTitle ? `<h5 class="wd-topic">${post.picTitle}</h5> ` : ""}
         ${post.picContent ? `<h5 class="wd-trending">${post.picContent}</h5> ` : ""}
-        </div>` : `<img src = ${post.image} class="wd-img card-img-top" style="border-radius: 10px" alt="..."/>`
+        </div>` :
+        `<img src = ${post.image} class="wd-img card-img-top" style="border-radius: 10px" alt="..."/>`
     }
     </div>
     

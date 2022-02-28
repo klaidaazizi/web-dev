@@ -33,12 +33,16 @@
     color: black !important;
 }
 
-.wd-searchbar > input {
-    border: 1px solid rgb(86, 86, 86);
-    color: white;
-    border-radius: 18px;
-    background-color: rgb(37, 37, 37);
-    width: 85%;
+
+.wd-input{
+    border-radius: 40px;
+}
+
+.wd-search-icon{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    padding: 2px;
 }
 
 .wd-bg-color-grey{

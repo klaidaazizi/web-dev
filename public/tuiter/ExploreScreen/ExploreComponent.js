@@ -3,10 +3,13 @@ import PostSummaryList from "../PostSummaryList/PostSummaryList.js";
 const ExploreComponent = () => {
     return(`
             <div class="col-8 col-sm-10 col-lg-6">
-             <div class="wd-searchbar">
-             <i class="fas fa-search" style="color: white"></i>
-             <input type="text" class="pt-2 ps-4 pb-2" placeholder="Search Twitter">
-             <i class="fas fa-cog fa-2x position-absolute mt-1 ms-3" style="color: white"></i>
+             <div class="input-group mb-2 wd-input">
+             <i class="fa fa-search wd-search-icon"></i>
+             <input type="text" class="form-control form-input" placeholder="       Search Twitter" style="border-radius:45px; position:relative; right:15px; z-index: -1;">
+             <a href="explore-settings.html">
+             <i class="fas fa-cog fa-2x text-primary position-relative mt-1" style="color: white"></i>
+             </a>
+        
              </div>
          
            <ul class="nav mb-2 mt-2 nav-tabs">
