@@ -5,7 +5,7 @@ const ExploreComponent = () => {
             <div class="col-8 col-sm-10 col-lg-6">
              <div class="input-group mb-2 wd-input">
              <i class="fa fa-search wd-search-icon"></i>
-             <input type="text" class="form-control form-input" placeholder="       Search Twitter" style="border-radius:45px; position:relative; right:15px; z-index: -1;">
+             <input type="text" class="form-control form-input rounded-pill" placeholder="       Search Twitter" style="right:15px; z-index: -1;">
              <a href="explore-settings.html">
              <i class="fas fa-cog fa-2x text-primary position-relative mt-1" style="color: white"></i>
              </a>
