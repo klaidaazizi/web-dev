@@ -30,7 +30,7 @@ const ExploreComponent = () => {
            </ul>
            <div class="card">
            <div class="wd-img-container">
-           <img src="../images/starship.jpg" class="wd-img">
+           <img src="../../images/starship.jpg" class="wd-img">
            <div class="wd-caption position-absolute bottom-0 ms-2"><b>SpaceX's Starship</b></div>
            </div>
            </div>

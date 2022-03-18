@@ -123,6 +123,7 @@ stringArray1.splice(1, 1);
 console.log(numberArray1);
 console.log(stringArray1);
 
+
 console.log("For Loops");
 for (let i=0; i<stringArray1.length; i++) {
     const string1 = stringArray1[i];

@@ -1,0 +1,129 @@
+.wd-bg-color-black{
+    background-color: #0e0e0e;
+}
+
+.wd-fg-grey{
+    color: grey;
+}
+
+.list-group-item.wd-list-group-item-override{
+    background-color: black !important;
+    color: white !important;
+}
+.list-group-item.wd-list-group-item-override.active {
+    background-color: #282828 !important;
+    color: rgb(252, 252, 252) !important;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 1px solid #2f2f2f;
+}
+.nav-link.wd-override-nav-link {
+    color: rgb(110, 118, 125) !important;
+    background-color: black !important;
+    font-size: 16px !important;
+}
+.nav-link.wd-override-nav-link.active {
+    font-size: 20px !important;
+    font-weight: bold;
+    border-bottom: 3px solid #038bff !important;
+}
+
+.nav-link.wd-override-nav-link.active:hover {
+    background-color: rgb(231, 231, 231) !important;
+    color: black !important;
+}
+
+
+.wd-input{
+    border-radius: 40px;
+}
+
+.wd-search-icon{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    padding: 2px;
+}
+
+.wd-bg-color-grey{
+    background-color: rgb(70, 70, 70);
+}
+.wd-img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width:100%;
+    display: flex;
+}
+
+.wd-more{
+    color: #149eff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.wd-img {
+    width: 100%;
+}
+
+.wd-caption{
+    font-size: 24px;
+    color:white;
+}
+
+.wd-content{
+    border: 1px solid #363636;
+}
+.wd-creator{
+    color: white;
+}
+
+.wd-trending{
+    font-size: 14px;
+    color: #808080;
+}
+
+.wd-topic{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.wd-timestamp{
+    color: grey;
+}
+
+.wd-tweet{
+    color: grey;
+}
+.wd-img-trending{
+    width: 100px;
+    border-radius: 10%;
+}
+
+.wd-follow-img{
+    border-radius: 50%;
+    height:45px;
+}
+
+.wd-follow{
+    font-size: 15px;
+    background-color: black !important;
+    color: white !important;
+}
+
+.btn-primary:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+.wd-home-avatar{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.wd-card-border{
+    border-radius: 15px;
+
+}
