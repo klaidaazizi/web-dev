@@ -20,7 +20,7 @@ export default [
         userName: '@nypost',
         time: '23h',
         title: 'Grimes seen reading Karl Marx following split with world\'s richest man Elon Musk <a href="" style="text-decoration:none">trib.al/nx2Gfaq</a>',
-        image: '../images/grimes.png',
+        image: '../images/grimes.jpg',
         picTitle: '',
         picContent: '',
         comments: '965',
