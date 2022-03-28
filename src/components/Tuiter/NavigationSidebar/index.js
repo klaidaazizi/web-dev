@@ -5,13 +5,14 @@ const NavigationSidebar = (
     {
         active = 'explore'
     }) => {
+
     return(
         <>
             <div className="list-group">
-                <Link className="list-group-item" to="/tuiter/home">
+                <Link className="list-group-item" to="/tuiter">
                     <i className="fab fa-twitter"/>
                 </Link>
-                <Link className={`list-group-item list-group-item-action ${active === 'Home' ? 'active': ''}`} to="/tuiter/home" >
+                <Link className={`list-group-item list-group-item-action ${active === 'Home' ? 'active': ''}`} to="/tuiter" >
                     <i className="fas fa-home"/> <span className="d-none d-xl-inline">Home</span>
                 </Link>
                 <Link className={`list-group-item list-group-item-action ${active === 'Explore' ? 'active': ''}`} to="/tuiter/explore">
@@ -29,9 +30,9 @@ const NavigationSidebar = (
                 <a className={`list-group-item list-group-item-action ${active === 'Lists' ? 'active': ''}`} >
                     <i className="fas fa-list"/> <span className="d-none d-xl-inline">Lists</span>
                 </a>
-                <a className={`list-group-item list-group-item-action ${active === 'Profile' ? 'active': ''}`} >
+                <Link to="/tuiter/profile" className={`list-group-item list-group-item-action ${active === 'Profile' ? 'active': ''}`} >
                     <i className="fas fa-user"/> <span className="d-none d-xl-inline">Profile</span>
-                </a>
+                </Link>
                 <a className={`list-group-item list-group-item-action ${active === 'More' ? 'active': ''}`} >
                     <i className="fas fa-circle"/> <span className="d-none d-xl-inline">More</span>
                 </a>

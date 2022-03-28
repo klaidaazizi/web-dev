@@ -5,7 +5,7 @@ import React from "react";
 const PostSummaryList = () => {
     return (
     <div> 
-    <ul class="list-group">
+    <ul className="list-group">
         {exploreItems.map((post) =>{
         return(
             <li className="list-group-item d-flex justify-content-between align-items-center text-white" key={post.userName}>

@@ -1,0 +1,13 @@
+.wd-banner-pic {
+    max-width: 100%;
+}
+
+.wd-profile-pic {
+    position: absolute;
+    left: 40px;
+    height: 125px;
+    width: 125px;
+    bottom: -40px;
+    border: 3px black solid;
+    border-radius: 50%;
+}

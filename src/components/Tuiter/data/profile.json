@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "123",
+    "firstName": "Klaida Azizi",
+    "handle": "kazizi",
+"profilePicture": "../../../images/about.jpg",
+  "bannerPicture": "../../../images/boston.png",
+"bio": "Aspiring Software Engineer interested in Data Science and Machine Learning",
+"website": "klaidaazizi.me",
+"location": "Boston, MA",
+  "dateOfBirth": "March 28, 1995",
+  "dateJoined": "April 2009",
+"followingCount": 312,
+  "followersCount": 180
+}
+]
