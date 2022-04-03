@@ -6,15 +6,11 @@ import TuitListItem
 import {createTuit, deleteTuit,findAllTuits,updateTuit} from "../actions/tuits-actions";
 
 const TuitList = () => {
-    const tuits = useSelector(
-        state => state.tuits);
+    const tuits = useSelector(state => state.tuits);
     const dispatch = useDispatch();
-    const [newTuit, setNewTuit] =
-        useState({tuit: 'New tuit'});
+    const [newTuit, setNewTuit] = useState({tuit: 'New tuit'});
 
-    useEffect(() =>
-            findAllTuits(dispatch),
-        []);
+    useEffect(() => findAllTuits(dispatch), []);
 
     return (
         <>
@@ -22,19 +18,18 @@ const TuitList = () => {
                 <button onClick={() =>
                     createTuit(dispatch, newTuit)}
                         className="btn btn-primary float-end">
-                    Tuit
+                    New Tuit
                 </button>
-                <textarea className="form-control w-75"
-    onChange={(e) =>
-        setNewTuit({
-            ...newTuit,
-            tuit: e.target.value
-        })}/>
+                <textarea placeholder="What's Happening" className="form-control w-75"
+                onChange={(e) => setNewTuit({
+                ...newTuit,
+                tuit: e.target.value
+                })}/>
             </div>
             <ul className="list-group">
             {
             tuits.map(tuit => {
-                return <TuitListItem tuit={tuit} deleteTuit={deleteTuit()} updateTuit={updateTuit()}/>;
+                return <TuitListItem tuit={tuit} deleteTuit={deleteTuit} updateTuit={updateTuit}/>;
             })
         }
 
