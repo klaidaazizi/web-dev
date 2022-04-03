@@ -28,12 +28,16 @@ function App() {
                                exact={true}
                                element={<Tuiter/>}>
                             <Route index
+                                   exact={true}
                                    element={<HomeScreen/>}/>
                             <Route path="explore"
+                                   exact={true}
                                    element={<ExploreScreen/>}/>
                             <Route path="profile"
+                                   exact={true}
                                    element={<ProfileScreen/>}/>
                             <Route path="profile/editprofile"
+                                   exact={true}
                                    element={<EditProfileScreen/>}/>
                         </Route>
                     </Route>
