@@ -1,4 +1,4 @@
-const data = [
+ const data = [
     {
         _id: "123",
         do: "Accelerate the world's transition to sustainable energy",
