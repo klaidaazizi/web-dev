@@ -10,6 +10,7 @@ const TuitListItem = ({tuit, deleteTuit, updateTuit}) => {
                <div className="list-group-item mt-2">
                    <div>
                        <div>@ {tuit._id}</div>
+                       <div>Posted by:  {tuit.postedBy.username}</div>
                        <div>{tuit.tuit}</div>
                    </div>
                    <div className='mt-2'>
